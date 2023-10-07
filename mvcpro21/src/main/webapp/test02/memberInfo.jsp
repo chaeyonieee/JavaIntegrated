@@ -19,12 +19,14 @@ request.setCharacterEncoding("utf-8");
 <td><b>비밀번호</b></td>
 <td><b>이름</b></td>
 <td><b>이메일</b></td>
+<td><b>가입일</b></td>
 </tr>
 <tr align ="center">
-<td>${id }</td>
-<td>${pwd}</td>
-<td>${name }</td>
-<td>${email }</td>
+<td>${member.id }</td>
+<td>${member.pwd}</td>
+<td>${member.name }</td>
+<td>${member.email }</td>
+<td>${member.joinDate }</td>
 </tr>
 
 </table>
